@@ -11,3 +11,4 @@ let generateRefreshToken = (UserId)=>{
         expiresIn:"1d"
     })
 }
+export{generateAccessToken,generateRefreshToken}
